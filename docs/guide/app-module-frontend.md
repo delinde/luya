@@ -1,12 +1,12 @@
 # Frontend module
 
-If specific logic have to be applied to your website, e. g. a form where user can input data or you may load data from a database and render a custom view then you can create a frontend module. The module can be integrated into your CMS or called directly via the module url.
+If some specific logic has to be added to your website, e.g. a form where user can input data, or you may load data from a database and render a custom view, then you can create a **frontend module**. The module can be integrated into your CMS, and  you can also call it directly via the module url.
 
-Frontend modules are also a very common way to redistributed logic of a controller but still let the user implement the view files to fit their look.
+Frontend modules are a very common way to redistribute logic of a controller but still let the developer implement the view files to fit the site’s look.
 
 ### View rendering options
 
-As already mentioned, frontend modules commonly contain controller logic but may use the view files from the project where the module in integrated. Therefore a possibility is provided which let you regulate where the view files of a module should be rendered.
+As already mentioned, frontend modules commonly contain controller logic but may use the view files from the project where the module is integrated. Therefore a possibility is provided which let you regulate where the view files of a module should be rendered.
 
 ```php
 <?php
